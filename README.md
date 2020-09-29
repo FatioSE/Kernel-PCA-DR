@@ -1,1 +1,1 @@
-[![CodeFactor](https://www.codef
+[![CodeFactor](https://www.codefactor.io/repository/github/walterjgsp/meaning/badge/master)](https://www.codefactor.io/repository/github/
