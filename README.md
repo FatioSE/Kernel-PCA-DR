@@ -1,1 +1,2 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/walterjgsp/meaning/badge/master)](https://www.codefactor.io/repository/github/
+[![CodeFactor](https://www.codefactor.io/repository/github/walterjgsp/meaning/badge/master)](https://www.codefactor.io/repository/github/walterjgsp/meaning/overview/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f4791748f12b4b9
