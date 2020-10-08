@@ -7,4 +7,7 @@
     <h3>Automatic machine learning pipeline generator </h3>
 </div>
 
-The architecture
+The architecture followed by this project is presented in the next image:
+
+<div align="center">
+    <img  src="./images/architecture.png"
