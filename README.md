@@ -3,4 +3,4 @@
 [![Build Status](https://travis-ci.com/walterjgsp/meaning.svg?branch=master)](https://travis-ci.com/walterjgsp/meaning)
 
 <div align="center">
-    <h1 al
+    <h1 align="center">MEANING (<b>M</b>achine l<b>EA</b>r<b>N</b>ing p<b>I</b>peli<b>N</b>e <b>G</b>enerator)</h
