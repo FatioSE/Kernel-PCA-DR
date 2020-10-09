@@ -17,4 +17,6 @@ The architecture followed by this project is presented in the next image:
 
 The Grammar Genetic Programming module was made using Kotlin as base language
 
-## 2. SK Proc
+## 2. SK Processor
+
+This is the module to process each individual genrate by the GGP using the framework SKLearn. The module is made u
