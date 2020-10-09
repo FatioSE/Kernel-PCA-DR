@@ -19,4 +19,9 @@ The Grammar Genetic Programming module was made using Kotlin as base language
 
 ## 2. SK Processor
 
-This is the module to process each individual genrate by the GGP using the framework SKLearn. The module is made u
+This is the module to process each individual genrate by the GGP using the framework SKLearn. The module is made using Python
+and [Faust](https://faust.readthedocs.io/en/latest/index.html) 
+
+## 3. Kafka
+
+Kafka was
