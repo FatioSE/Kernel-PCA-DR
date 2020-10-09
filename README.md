@@ -10,4 +10,11 @@
 The architecture followed by this project is presented in the next image:
 
 <div align="center">
-    <img  src="./images/architecture.png"
+    <img  src="./images/architecture.png">
+</div>
+
+## 1. GGP
+
+The Grammar Genetic Programming module was made using Kotlin as base language
+
+## 2. SK Proc
