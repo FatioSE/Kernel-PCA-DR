@@ -24,4 +24,7 @@ and [Faust](https://faust.readthedocs.io/en/latest/index.html)
 
 ## 3. Kafka
 
-Kafka was chosen as the mediator between the GGP(application that gonna create possible machine learning pipelines) and the 
+Kafka was chosen as the mediator between the GGP(application that gonna create possible machine learning pipelines) and the consumers (applications
+that gonna evaluate the created pipelines)
+
+This project deployed Kafka using Docker, so, t
