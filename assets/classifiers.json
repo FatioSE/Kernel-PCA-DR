@@ -1,4 +1,6 @@
 {
     "classifiers":[
         {
-            "name":"Deci
+            "name":"DecisionTreeClassifier",
+            "import_package":"from sklearn.tree import DecisionTreeClassifier",
+          
