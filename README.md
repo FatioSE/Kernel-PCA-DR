@@ -27,4 +27,4 @@ and [Faust](https://faust.readthedocs.io/en/latest/index.html)
 Kafka was chosen as the mediator between the GGP(application that gonna create possible machine learning pipelines) and the consumers (applications
 that gonna evaluate the created pipelines)
 
-This project deployed Kafka using Docker, so, t
+This project deployed Kafka using Docker, so, the first step is to install Docker on your machine to make it work.
