@@ -7,4 +7,8 @@
         },
         {
             "name":"KNeighborsClassifier",
-            "import_package":
+            "import_package": "from sklearn.neighbors import KNeighborsClassifier",
+            "parameters":[]
+        }
+    ]
+}
