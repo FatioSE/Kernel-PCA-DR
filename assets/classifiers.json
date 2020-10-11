@@ -3,4 +3,8 @@
         {
             "name":"DecisionTreeClassifier",
             "import_package":"from sklearn.tree import DecisionTreeClassifier",
-          
+            "parameters":[]
+        },
+        {
+            "name":"KNeighborsClassifier",
+            "import_package":
