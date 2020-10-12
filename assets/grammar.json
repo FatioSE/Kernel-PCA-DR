@@ -3,4 +3,9 @@
     "key":"start",
     "terminal":false,
     "probability":1.0,
-    "childre
+    "children":[
+        {
+            "name":"algorithm",
+            "key":"classifier",
+            "terminal":true,
+    
