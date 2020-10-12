@@ -3,4 +3,5 @@
     "mutationRate": 25.0,
     "population": 300,
     "generations": 100,
-    "sele
+    "selectionSize": 5
+}
