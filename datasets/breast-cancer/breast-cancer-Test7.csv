@@ -1,1 +1,3 @@
-ClumpThickness,CellSizeUniformity,CellShapeUniformity,M
+ClumpThickness,CellSizeUniformity,CellShapeUniformity,MarginalAdhesion,SingleEpiCellSize,BareNuclei,BlandChromatin,NormalNucleoli,Mitoses,class
+5,1,1,2,2,1,2,1,1,b
+1,1,1,1,2,1,1,1,
