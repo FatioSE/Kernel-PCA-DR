@@ -1,2 +1,7 @@
 sepallength,sepalwidth,petallength,petalwidth,class
-4.8,3.1,1.6,0.2,Iris
+4.8,3.1,1.6,0.2,Iris-setosa
+5,3.5,1.6,0.6,Iris-setosa
+5,3.4,1.5,0.2,Iris-setosa
+5.4,3.4,1.7,0.2,Iris-setosa
+5.5,4.2,1.4,0.2,Iris-setosa
+6,3.4,4.5,
