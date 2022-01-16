@@ -39,4 +39,7 @@ sepallength,sepalwidth,petallength,petalwidth,class
 5.9,3,4.2,1.5,Iris-versicolor
 5.8,2.6,4,1.2,Iris-versicolor
 6.4,3.2,4.5,1.5,Iris-versicolor
-6.3,2.5,4.9,1.5,Ir
+6.3,2.5,4.9,1.5,Iris-versicolor
+5,2.3,3.3,1,Iris-versicolor
+5.7,3,4.2,1.2,Iris-versicolor
+5.2,2.7,3.9,1.4,I
