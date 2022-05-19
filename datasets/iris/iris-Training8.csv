@@ -32,4 +32,8 @@ sepallength,sepalwidth,petallength,petalwidth,class
 6.7,3.3,5.7,2.1,Iris-virginica
 6.3,2.7,4.9,1.8,Iris-virginica
 6.7,3.3,5.7,2.5,Iris-virginica
-7.9,3.8,6.4,2,Iris-v
+7.9,3.8,6.4,2,Iris-virginica
+5,2.3,3.3,1,Iris-versicolor
+6.8,2.8,4.8,1.4,Iris-versicolor
+6.3,2.5,4.9,1.5,Iris-versicolor
+6.3,3.3,
