@@ -1,0 +1,8 @@
+version: '3'
+
+networks:
+  kafka-net:
+    driver: bridge
+
+services:
+  zookeeper-s
