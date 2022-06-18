@@ -21,4 +21,6 @@ services:
     ports:
       - '9092:9092'
     environment:
-      - KAFKA_CFG_ZOOKEEPER_CONNECT
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-server:9092
+      - ALLOW_
