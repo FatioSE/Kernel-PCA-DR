@@ -5,4 +5,10 @@ networks:
     driver: bridge
 
 services:
-  zookeeper-s
+  zookeeper-server:
+    image: 'bitnami/zookeeper:latest'
+    networks:
+      - kafka-net
+    ports:
+      - '2181:2181'
+    environ
