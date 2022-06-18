@@ -11,4 +11,10 @@ services:
       - kafka-net
     ports:
       - '2181:2181'
-    environ
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+  
+  kafka-server:
+    image: 'bitnami/kafka:latest'
+    networks:
+  
