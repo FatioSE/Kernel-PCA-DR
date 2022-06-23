@@ -18,4 +18,7 @@ To execute tests run the command in the ggp folder:
 
 ### Third Party Libraries
 
-The following libraries were used i
+The following libraries were used in this project:
+
+* [Clikt](https://github.com/ajalt/clikt): make it possible to create command line applications using Kotlin 
+* [GSON
