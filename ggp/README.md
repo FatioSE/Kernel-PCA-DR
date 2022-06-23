@@ -10,4 +10,12 @@ targets the JVM.
 
 #### 1. Testing
 
-To execute tests run the command in the ggp f
+To execute tests run the command in the ggp folder:
+
+```bash
+./gradlew clean test
+```
+
+### Third Party Libraries
+
+The following libraries were used i
