@@ -32,3 +32,17 @@ dependencies {
 }
 
 tasks {
+    compileKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+    compileTestKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+    test {
+        testLogging {
+            showStandardStreams = true
+            events = setOf(PASSED, FAILED, SKIPPED)
+        }
+        useJUnitPlatform()
+    }
+}
