@@ -1,3 +1,3 @@
 import cli.GGP
 
-fun mai
+fun main(args: Array<String>) = GGP().main(args)
