@@ -11,4 +11,8 @@ import repository.GrammarRepository
 import shared.Artifacts
 import shared.Constants.CLASSIFIER_JSON_PATH
 import shared.Constants.COMPONENT_CLASSIFIER_KEY
-import shared.Constan
+import shared.Constants.CONFIG_JSON_PATH
+import shared.Constants.GRAMMAR_JSON_PATH
+import java.util.*
+
+class GGP : CliktCommand() {
