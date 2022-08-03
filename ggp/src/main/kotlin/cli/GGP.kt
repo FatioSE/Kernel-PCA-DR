@@ -16,3 +16,6 @@ import shared.Constants.GRAMMAR_JSON_PATH
 import java.util.*
 
 class GGP : CliktCommand() {
+
+    val trainingDatabase by option("-trDb", "--training-database", help = "Training database")
+    val 
