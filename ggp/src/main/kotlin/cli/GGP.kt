@@ -18,4 +18,5 @@ import java.util.*
 class GGP : CliktCommand() {
 
     val trainingDatabase by option("-trDb", "--training-database", help = "Training database")
-    val 
+    val testDatabase by option("-teDb", "--test-database", help = "Test database")
+    val configurationFilePath: String by option("-cp", "
