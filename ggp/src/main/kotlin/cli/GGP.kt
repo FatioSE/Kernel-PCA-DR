@@ -21,4 +21,5 @@ class GGP : CliktCommand() {
     val testDatabase by option("-teDb", "--test-database", help = "Test database")
     val configurationFilePath: String by option("-cp", "--config-path", help = "Path to configuration file").default(
         CONFIG_JSON_PATH
- 
+    )
+    val grammarFilePath: String by option("-gp", "--grammar-path", help = "Path to gramma
