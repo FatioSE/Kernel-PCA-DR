@@ -27,4 +27,6 @@ class GGP : CliktCommand() {
     )
 
     override fun run() {
-        echo("Loading configurati
+        echo("Loading configuration file")
+        Artifacts.configuration = ConfigurationRepository.loadConfiguration(configurationFilePath)
+
