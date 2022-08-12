@@ -22,4 +22,9 @@ class GGP : CliktCommand() {
     val configurationFilePath: String by option("-cp", "--config-path", help = "Path to configuration file").default(
         CONFIG_JSON_PATH
     )
-    val grammarFilePath: String by option("-gp", "--grammar-path", help = "Path to gramma
+    val grammarFilePath: String by option("-gp", "--grammar-path", help = "Path to grammar file").default(
+        GRAMMAR_JSON_PATH
+    )
+
+    override fun run() {
+        echo("Loading configurati
