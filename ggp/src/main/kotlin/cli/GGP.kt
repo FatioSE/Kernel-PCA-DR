@@ -30,3 +30,5 @@ class GGP : CliktCommand() {
         echo("Loading configuration file")
         Artifacts.configuration = ConfigurationRepository.loadConfiguration(configurationFilePath)
 
+        echo("Loading grammar tree from file")
+        Artifacts.grammarTree = GrammarRepository.loadGrammarTre
