@@ -31,4 +31,8 @@ class GGP : CliktCommand() {
         Artifacts.configuration = ConfigurationRepository.loadConfiguration(configurationFilePath)
 
         echo("Loading grammar tree from file")
-        Artifacts.grammarTree = GrammarRepository.loadGrammarTre
+        Artifacts.grammarTree = GrammarRepository.loadGrammarTree(grammarFilePath)
+
+        echo("Loading classifiers")
+        Artifacts.components.putIfAbsent(
+            CO
