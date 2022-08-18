@@ -35,4 +35,8 @@ class GGP : CliktCommand() {
 
         echo("Loading classifiers")
         Artifacts.components.putIfAbsent(
-            CO
+            COMPONENT_CLASSIFIER_KEY,
+            GrammarRepository.loadClassifiers(CLASSIFIER_JSON_PATH)
+        )
+
+        val popula
