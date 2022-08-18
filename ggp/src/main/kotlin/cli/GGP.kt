@@ -39,4 +39,5 @@ class GGP : CliktCommand() {
             GrammarRepository.loadClassifiers(CLASSIFIER_JSON_PATH)
         )
 
-        val popula
+        val population = PopulationFactory.generateInitialPopulation()
+        echo("Initial population generated with ${p
