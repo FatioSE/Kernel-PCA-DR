@@ -40,4 +40,7 @@ class GGP : CliktCommand() {
         )
 
         val population = PopulationFactory.generateInitialPopulation()
-        echo("Initial population generated with ${p
+        echo("Initial population generated with ${population.size} individuals")
+
+        Artifacts.trainingDataset = trainingDatabase ?: ""
+        Artifacts.testDa
