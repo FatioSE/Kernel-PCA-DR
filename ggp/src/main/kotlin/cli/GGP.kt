@@ -50,4 +50,7 @@ class GGP : CliktCommand() {
                 id = UUID.randomUUID().toString(),
                 importStr = "from sklearn.tree import DecisionTreeClassifier",
                 algStr = "DecisionTreeClassifier",
-                dbTraini
+                dbTrainingPath = Artifacts.trainingDataset,
+                dbTestPath = Artifacts.testDataset
+            ))
+        }
