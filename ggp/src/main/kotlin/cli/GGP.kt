@@ -43,4 +43,8 @@ class GGP : CliktCommand() {
         echo("Initial population generated with ${population.size} individuals")
 
         Artifacts.trainingDataset = trainingDatabase ?: ""
-        Artifacts.testDa
+        Artifacts.testDataset = testDatabase ?: ""
+
+        population.forEach{
+            KafkaController.sendIndividual(StreamIndividual(
+   
