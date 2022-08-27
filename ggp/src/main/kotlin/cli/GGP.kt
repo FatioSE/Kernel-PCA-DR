@@ -48,4 +48,6 @@ class GGP : CliktCommand() {
         population.forEach{
             KafkaController.sendIndividual(StreamIndividual(
                 id = UUID.randomUUID().toString(),
-                importStr = "from sklearn.tree impo
+                importStr = "from sklearn.tree import DecisionTreeClassifier",
+                algStr = "DecisionTreeClassifier",
+                dbTraini
