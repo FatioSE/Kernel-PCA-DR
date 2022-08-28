@@ -54,3 +54,5 @@ class GGP : CliktCommand() {
                 dbTestPath = Artifacts.testDataset
             ))
         }
+    }
+}
