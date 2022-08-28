@@ -8,3 +8,6 @@ object PopulationFactory {
 
     fun generateInitialPopulation(): List<Individual> {
         val population = mutableListOf<Individual>()
+        repeat(Artifacts.configuration.population) {
+            val newIndividual = generateIndividual()
+    
