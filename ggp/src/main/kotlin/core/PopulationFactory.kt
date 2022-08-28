@@ -10,4 +10,10 @@ object PopulationFactory {
         val population = mutableListOf<Individual>()
         repeat(Artifacts.configuration.population) {
             val newIndividual = generateIndividual()
-    
+            population.add(newIndividual)
+        }
+
+        return population
+    }
+
+    fun generateIndividual(): I
