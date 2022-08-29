@@ -16,4 +16,6 @@ object PopulationFactory {
         return population
     }
 
-    fun generateIndividual(): I
+    fun generateIndividual(): Individual {
+        val componentMap: MutableMap<String, IndividualTreeNode>? = mutableMapOf()
+        val individualTree = rec
