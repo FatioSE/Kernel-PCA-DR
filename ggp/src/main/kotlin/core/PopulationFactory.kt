@@ -18,4 +18,6 @@ object PopulationFactory {
 
     fun generateIndividual(): Individual {
         val componentMap: MutableMap<String, IndividualTreeNode>? = mutableMapOf()
-        val individualTree = rec
+        val individualTree = recursiveIndividualGenerator(Artifacts.grammarTree, componentMap)
+
+        return Individual(tree = individualTree, componentsMap =
