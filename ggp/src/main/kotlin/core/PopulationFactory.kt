@@ -27,4 +27,6 @@ object PopulationFactory {
         grammarNode: GrammarNode,
         componentsMap: MutableMap<String, IndividualTreeNode>?
     ): IndividualTreeNode? {
-        val drawValue: Double = Ran
+        val drawValue: Double = Random.nextDouble(100.0) / 100.0
+        return if (drawValue < grammarNode.probability) {
+            val child
