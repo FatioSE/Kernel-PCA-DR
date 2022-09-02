@@ -25,4 +25,6 @@ object PopulationFactory {
 
     private fun recursiveIndividualGenerator(
         grammarNode: GrammarNode,
-        c
+        componentsMap: MutableMap<String, IndividualTreeNode>?
+    ): IndividualTreeNode? {
+        val drawValue: Double = Ran
