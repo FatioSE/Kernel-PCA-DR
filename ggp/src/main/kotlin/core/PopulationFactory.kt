@@ -32,4 +32,5 @@ object PopulationFactory {
             val children = mutableListOf<IndividualTreeNode>()
             var component: Component? = null
             if (grammarNode.terminal) {
-       
+                component = Artifacts.components.get(grammarNode.key)?.random()
+            } else {
