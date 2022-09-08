@@ -29,4 +29,7 @@ object PopulationFactory {
     ): IndividualTreeNode? {
         val drawValue: Double = Random.nextDouble(100.0) / 100.0
         return if (drawValue < grammarNode.probability) {
-            val child
+            val children = mutableListOf<IndividualTreeNode>()
+            var component: Component? = null
+            if (grammarNode.terminal) {
+       
