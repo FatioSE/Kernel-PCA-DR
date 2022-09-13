@@ -37,4 +37,8 @@ object PopulationFactory {
                 for (child in grammarNode.children) {
                     val newChildrenNode = recursiveIndividualGenerator(child, componentsMap)
                     newChildrenNode?.let {
-                        children.add(ne
+                        children.add(newChildrenNode)
+                    }
+                }
+            }
+            val newNode = Individ
