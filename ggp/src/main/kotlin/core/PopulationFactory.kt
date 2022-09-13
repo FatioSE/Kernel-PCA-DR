@@ -35,4 +35,6 @@ object PopulationFactory {
                 component = Artifacts.components.get(grammarNode.key)?.random()
             } else {
                 for (child in grammarNode.children) {
-                    val newChildrenNode = recursiveIndividualGenerato
+                    val newChildrenNode = recursiveIndividualGenerator(child, componentsMap)
+                    newChildrenNode?.let {
+                        children.add(ne
