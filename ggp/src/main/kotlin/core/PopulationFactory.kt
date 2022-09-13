@@ -41,4 +41,7 @@ object PopulationFactory {
                     }
                 }
             }
-            val newNode = Individ
+            val newNode = IndividualTreeNode(
+                key = grammarNode.key,
+                terminal = grammarNode.terminal,
+           
