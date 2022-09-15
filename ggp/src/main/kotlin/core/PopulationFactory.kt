@@ -44,4 +44,7 @@ object PopulationFactory {
             val newNode = IndividualTreeNode(
                 key = grammarNode.key,
                 terminal = grammarNode.terminal,
-           
+                component = component,
+                children = children
+            )
+            compo
