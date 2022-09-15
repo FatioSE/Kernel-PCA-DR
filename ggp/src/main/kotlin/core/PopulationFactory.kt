@@ -47,4 +47,10 @@ object PopulationFactory {
                 component = component,
                 children = children
             )
-            compo
+            componentsMap?.put(newNode.key, newNode)
+            newNode
+        } else {
+            null
+        }
+    }
+}
