@@ -8,4 +8,6 @@ object KafkaController {
     val kafka = Kafka("kafka-server:9092")
     val processorTopic = "sk-individual-topic"
 
-    fun sendIndividual(streamIndividual: StreamIndividua
+    fun sendIndividual(streamIndividual: StreamIndividual){
+        val producer = Producer(kafka, processorTopic)
+        val jsonString = Gson().toJson(streamIn
