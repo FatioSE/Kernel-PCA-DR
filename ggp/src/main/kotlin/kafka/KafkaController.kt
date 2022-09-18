@@ -10,4 +10,8 @@ object KafkaController {
 
     fun sendIndividual(streamIndividual: StreamIndividual){
         val producer = Producer(kafka, processorTopic)
-        val jsonString = Gson().toJson(streamIn
+        val jsonString = Gson().toJson(streamIndividual)
+        producer.send(jsonString)
+        producer.flush()
+    }
+}
