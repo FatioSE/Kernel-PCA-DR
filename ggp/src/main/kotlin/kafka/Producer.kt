@@ -8,4 +8,8 @@ import java.util.*
 
 class Producer(kafka: Kafka, private val topic: String) {
 
-    private val 
+    private val kafkaProducer: KafkaProducer<String, String>
+
+    init {
+        val config = Properties()
+        config[ProducerC
