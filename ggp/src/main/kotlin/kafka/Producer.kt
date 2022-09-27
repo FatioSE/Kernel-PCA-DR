@@ -13,4 +13,5 @@ class Producer(kafka: Kafka, private val topic: String) {
     init {
         val config = Properties()
         config[ProducerConfig.BOOTSTRAP_SERVERS_CONFIG] = kafka.bootstrapServers
-        config[ProducerConfig.KEY_SERIALIZER_CLASS_C
+        config[ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG] = StringSerializer::class.java
+        config[ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG] = Str
