@@ -19,4 +19,8 @@ class Producer(kafka: Kafka, private val topic: String) {
     }
 
     fun send(msg: String) {
-    
+        kafkaProducer.send(ProducerRecord(topic, msg))
+    }
+
+    fun flush() = kafkaProducer.flush()
+}
