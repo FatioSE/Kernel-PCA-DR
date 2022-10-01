@@ -5,4 +5,5 @@ data class Configuration(
   val mutationRate: Double = 25.0,
   val population: Int = 100,
   val generations: Int = 100,
-  val selec
+  val selectionSize: Int = 5
+)
