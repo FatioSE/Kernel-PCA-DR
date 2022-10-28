@@ -5,4 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class StreamIndividual(
     var id: String,
     @SerializedName("import_str")
-    var 
+    var importStr: String,
+    @SerializedName("alg_str")
+    var algStr: String,
+    @SerializedName
