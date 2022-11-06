@@ -12,4 +12,6 @@ data class StreamIndividual(
     var dbTrainingPath: String,
     @SerializedName("db_test_path")
     var dbTestPath: String,
-  
+    @SerializedName("parameters_str")
+    var parameters: List<String> = emptyList()
+)
