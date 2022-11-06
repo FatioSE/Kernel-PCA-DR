@@ -6,4 +6,6 @@ import utils.FileUtils
 
 object ConfigurationRepository {
 
-    fun l
+    fun loadConfiguration(configPath: String): Configuration {
+        val jsonString = FileUtils.readFile(configPath)
+     
