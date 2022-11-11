@@ -8,4 +8,6 @@ import utils.FileUtils
 
 object GrammarRepository {
 
-    fun loadGrammarTree(grammarPath: S
+    fun loadGrammarTree(grammarPath: String): GrammarNode {
+        val jsonString = FileUtils.readFile(grammarPath)
+        val grammarTree =
