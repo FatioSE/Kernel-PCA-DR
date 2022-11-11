@@ -10,4 +10,8 @@ object GrammarRepository {
 
     fun loadGrammarTree(grammarPath: String): GrammarNode {
         val jsonString = FileUtils.readFile(grammarPath)
-        val grammarTree =
+        val grammarTree = Gson().fromJson(jsonString, GrammarNode::class.java)
+        return grammarTree
+    }
+
+    fun loadClassifiers(c
