@@ -14,4 +14,6 @@ object GrammarRepository {
         return grammarTree
     }
 
-    fun loadClassifiers(c
+    fun loadClassifiers(classifiersPath: String): List<Classifier> {
+        val jsonString = FileUtils.readFile(classifiersPath)
+        val clas
