@@ -17,4 +17,6 @@ object GrammarRepository {
     fun loadClassifiers(classifiersPath: String): List<Classifier> {
         val jsonString = FileUtils.readFile(classifiersPath)
         val classifierList = Gson().fromJson(jsonString, ClassifierList::class.java)
-        return classifierList.classifier
+        return classifierList.classifiers
+    }
+}
