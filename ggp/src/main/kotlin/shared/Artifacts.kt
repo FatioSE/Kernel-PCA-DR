@@ -9,4 +9,5 @@ object Artifacts {
     var components = mutableMapOf<String, List<Component>>()
     var trainingDataset: String = ""
     var testDataset: String = ""
-    lateinit var grammarTree: Gramma
+    lateinit var grammarTree: GrammarNode
+}
