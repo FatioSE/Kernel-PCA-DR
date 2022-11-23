@@ -2,4 +2,8 @@ package shared
 
 import models.Component
 import models.Configuration
-import models.Gram
+import models.GrammarNode
+
+object Artifacts {
+    var configuration = Configuration()
+    var components = mutableMapOf<String, List<
