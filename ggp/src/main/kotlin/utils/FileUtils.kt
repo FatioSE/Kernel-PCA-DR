@@ -7,4 +7,10 @@ object FileUtils {
     fun readFile(fileName: String): String? {
         val file = File(fileName)
         return if (file.exists()) {
-            file.readText(Charsets.UT
+            file.readText(Charsets.UTF_8)
+        } else {
+            null
+        }
+    }
+
+}
