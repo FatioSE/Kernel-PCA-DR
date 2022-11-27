@@ -1,3 +1,8 @@
 package models
 
-import org.
+import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Test
+
+class ConfigurationModelTest {
+
+   
