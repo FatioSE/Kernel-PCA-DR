@@ -5,4 +5,7 @@ import org.junit.jupiter.api.Test
 
 class ConfigurationModelTest {
 
-   
+    @Test
+    fun configurationDefaultObjectTest() {
+        val configuration = Configuration()
+        assertThat(confi
