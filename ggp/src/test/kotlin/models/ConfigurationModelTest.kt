@@ -8,4 +8,6 @@ class ConfigurationModelTest {
     @Test
     fun configurationDefaultObjectTest() {
         val configuration = Configuration()
-        assertThat(confi
+        assertThat(configuration.crossoverRate).isEqualTo(50.0)
+        assertThat(configuration.mutationRate).isEqualTo(25.0)
+ 
