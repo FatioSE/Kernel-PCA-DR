@@ -11,4 +11,10 @@ class ConfigurationModelTest {
         assertThat(configuration.crossoverRate).isEqualTo(50.0)
         assertThat(configuration.mutationRate).isEqualTo(25.0)
         assertThat(configuration.generations).isEqualTo(100)
-        assertThat(configuration.population).isEqualTo(100
+        assertThat(configuration.population).isEqualTo(100)
+        assertThat(configuration.selectionSize).isEqualTo(5)
+    }
+
+    @Test
+    fun configurationObjectTest() {
+        val co
