@@ -20,4 +20,8 @@ class ConfigurationModelTest {
         val configuration = Configuration(
             crossoverRate = 75.0,
             mutationRate = 10.0,
-            population = 30
+            population = 300,
+            generations = 25,
+            selectionSize = 3
+        )
+        assertThat(configuratio
