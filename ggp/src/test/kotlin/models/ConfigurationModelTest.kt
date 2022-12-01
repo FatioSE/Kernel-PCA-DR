@@ -17,4 +17,7 @@ class ConfigurationModelTest {
 
     @Test
     fun configurationObjectTest() {
-        val co
+        val configuration = Configuration(
+            crossoverRate = 75.0,
+            mutationRate = 10.0,
+            population = 30
