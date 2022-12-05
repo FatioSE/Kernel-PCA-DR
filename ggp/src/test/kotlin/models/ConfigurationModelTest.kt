@@ -26,4 +26,5 @@ class ConfigurationModelTest {
         )
         assertThat(configuration.crossoverRate).isEqualTo(75.0)
         assertThat(configuration.mutationRate).isEqualTo(10.0)
-      
+        assertThat(configuration.generations).isEqualTo(25)
+        assertThat(configuration.population).i
