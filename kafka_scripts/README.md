@@ -29,3 +29,39 @@ To test if everything worked just use the command
 ```bash
 ping kafka-server
 ```
+
+and if no package is lost the setup is done
+
+## 2. Commands
+
+This sections list important commands for Kafka usage with docker:
+
+To enter the kafka container shell:
+
+```bash
+docker-compose exec -it kafka-server /bin/bash
+```
+
+Create a producer inside kafka container:
+
+```bash
+kafka-console-producer.sh --broker-list kafka-server:9092 --topic test
+```
+
+And to create the consumer also inside the kafka container:
+
+```bash
+kafka-console-consumer.sh --bootstrap-server kafka-server:9092 --topic test
+```
+
+If you want to list all the topics in your Kafka machine:
+
+```bash
+kafka-topics.sh --list --bootstrap-server kafka-server:9092
+```
+
+## 3. Other info
+
+If you want to test the connection outside the container, there is two scripts
+in kafka_scripts folder. One is a producer and the other is a consumer. Execute
+them and see if the message is being sent and processed.
