@@ -6,4 +6,5 @@ consumer = KafkaConsumer('kafka-python-topic',
                         bootstrap_servers=['kafka-server:9092'])
 
 for message in consumer:
-    # me
+    # message value and key are raw bytes -- decode if necessary!
+    # e.g., for unicode: `message.value.decod
