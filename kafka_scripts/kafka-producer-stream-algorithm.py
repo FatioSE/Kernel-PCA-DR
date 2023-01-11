@@ -11,4 +11,5 @@ producer = KafkaProducer(bootstrap_servers='kafka-server:9092',
                          api_version=(0, 11, 5))
 
 stream_algorithm_str = {"id":"1","import_str": "from sklearn.tree import DecisionTreeClassifier",
-                        "alg_str": "DecisionTreeClassifier", "paramet
+                        "alg_str": "DecisionTreeClassifier", "parameters_str": None,
+                        "db_training_path": "test_training.csv","db_test_path":"test_test
