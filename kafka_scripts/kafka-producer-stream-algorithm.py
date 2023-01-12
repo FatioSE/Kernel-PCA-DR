@@ -12,4 +12,8 @@ producer = KafkaProducer(bootstrap_servers='kafka-server:9092',
 
 stream_algorithm_str = {"id":"1","import_str": "from sklearn.tree import DecisionTreeClassifier",
                         "alg_str": "DecisionTreeClassifier", "parameters_str": None,
-                        "db_training_path": "test_training.csv","db_test_path":"test_test
+                        "db_training_path": "test_training.csv","db_test_path":"test_test.csv"}
+
+producer.send('sk-individual-topic', stream_algorithm_str)
+
+# block until all async messages are s
