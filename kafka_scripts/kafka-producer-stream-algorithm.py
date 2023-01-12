@@ -16,4 +16,5 @@ stream_algorithm_str = {"id":"1","import_str": "from sklearn.tree import Decisio
 
 producer.send('sk-individual-topic', stream_algorithm_str)
 
-# block until all async messages are s
+# block until all async messages are sent
+producer.flush()
