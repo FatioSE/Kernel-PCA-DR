@@ -10,4 +10,8 @@ producer = KafkaProducer(bootstrap_servers='kafka-server:9092',
                          api_version=(0,11,5))
 
 # Call the producer.send method with a producer-record
-print("Ctrl
+print("Ctrl+c to Stop")
+while True:
+    number = random.randint(1, 999)
+    print("Produce: ", number)
+    pro
