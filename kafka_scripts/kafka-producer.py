@@ -14,4 +14,4 @@ print("Ctrl+c to Stop")
 while True:
     number = random.randint(1, 999)
     print("Produce: ", number)
-    pro
+    producer.send('kafka-python-topic', number)
