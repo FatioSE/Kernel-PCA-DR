@@ -10,4 +10,9 @@ on your machine for development porpuses.
 
 You can follow the following tutorials:
 
-- MacOS: https://swapps.com/blog/how-to-configure-virtualenvwrapper-with-py
+- MacOS: https://swapps.com/blog/how-to-configure-virtualenvwrapper-with-python3-in-osx-mojave/
+- Linux: https://virtualenvwrapper.readthedocs.io/en/latest/install.html
+
+## Setup
+
+To run on your loc
