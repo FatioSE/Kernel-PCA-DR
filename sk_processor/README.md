@@ -8,4 +8,6 @@ This is the module to process the individuals generate by the GGP using
 I strongly suggest the usage of virtual enviromnent when running this process
 on your machine for development porpuses.
 
-You can follow 
+You can follow the following tutorials:
+
+- MacOS: https://swapps.com/blog/how-to-configure-virtualenvwrapper-with-py
