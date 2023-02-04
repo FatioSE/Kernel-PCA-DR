@@ -15,4 +15,8 @@ You can follow the following tutorials:
 
 ## Setup
 
-To run on your loc
+To run on your local machine, maybe will be necessary to run the following command from the src folder:
+
+```bash
+pip install -e .
+```
