@@ -1,0 +1,11 @@
+
+#Core libraries
+sklearn
+pandas
+numpy
+faust
+
+setuptools
+
+#Test framework
+pytest

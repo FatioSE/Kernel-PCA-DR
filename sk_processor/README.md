@@ -34,4 +34,5 @@ pytest
 In order to run the worker use the command:
 
 ```bash
-faust -A sk_worker worker
+faust -A sk_worker worker -l info
+```
