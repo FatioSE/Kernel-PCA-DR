@@ -20,3 +20,8 @@ To run on your local machine, maybe will be necessary to run the following comma
 ```bash
 pip install -e .
 ```
+
+## Run tests
+
+After all the setup is finished, you can run the tests using the command: 
+
