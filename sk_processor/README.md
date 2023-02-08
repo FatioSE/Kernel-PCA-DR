@@ -25,3 +25,13 @@ pip install -e .
 
 After all the setup is finished, you can run the tests using the command: 
 
+```bash
+pytest
+```
+
+## Run Worker
+
+In order to run the worker use the command:
+
+```bash
+faust -A sk_worker worker
