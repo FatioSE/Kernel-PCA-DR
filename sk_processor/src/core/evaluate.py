@@ -8,4 +8,5 @@ from core.evaluate_individual import evaluate_individual
 def evaluate(stream_individual: StreamIndividual) -> EvaluationResult:
     evaluate_result = EvaluationResult(individual_id = stream_individual.id)
 
-    process_queue = Queue(
+    process_queue = Queue()
+    processor = Process(target=evaluate_individual,args=(process_queue,stream_individua
