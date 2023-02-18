@@ -9,4 +9,9 @@ def evaluate(stream_individual: StreamIndividual) -> EvaluationResult:
     evaluate_result = EvaluationResult(individual_id = stream_individual.id)
 
     process_queue = Queue()
-    processor = Process(target=evaluate_individual,args=(process_queue,stream_individua
+    processor = Process(target=evaluate_individual,args=(process_queue,stream_individual))
+    processor.start()
+    try:
+        result = process_queue.get(timeout=60)
+        if result is not None:
+        
