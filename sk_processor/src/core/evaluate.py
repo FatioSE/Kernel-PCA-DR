@@ -14,4 +14,6 @@ def evaluate(stream_individual: StreamIndividual) -> EvaluationResult:
     try:
         result = process_queue.get(timeout=60)
         if result is not None:
-        
+            evaluate_result.accuracy_test = result["accuracy_test"]
+            evaluate_result.f1_test = result["f1_test"]
+    except Empty 
