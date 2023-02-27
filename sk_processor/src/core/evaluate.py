@@ -16,4 +16,7 @@ def evaluate(stream_individual: StreamIndividual) -> EvaluationResult:
         if result is not None:
             evaluate_result.accuracy_test = result["accuracy_test"]
             evaluate_result.f1_test = result["f1_test"]
-    except Empty 
+    except Empty as error: 
+        print("Writer: Timeout occurred {}".format(str(error)))
+    finally:
+        processor.join(
