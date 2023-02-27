@@ -19,4 +19,6 @@ def evaluate(stream_individual: StreamIndividual) -> EvaluationResult:
     except Empty as error: 
         print("Writer: Timeout occurred {}".format(str(error)))
     finally:
-        processor.join(
+        processor.join()
+        processor.terminate()
+        return evaluate_result
