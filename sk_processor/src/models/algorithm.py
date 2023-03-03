@@ -6,4 +6,4 @@ class Algorithm:
         self.parameters_str = parameters_str
 
     def get_model_str(self):
- 
+        return "{0}()".format(self.alg_str)
