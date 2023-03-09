@@ -1,2 +1,7 @@
 from faust import Record
-fr
+from models.algorithm import Algorithm
+
+class StreamIndividual(Record,serializer="json"):
+    id: str
+    import_str: str
+    al
