@@ -7,4 +7,6 @@ app = faust.App('sk-processor-app', broker='kafka://kafka-server:9092',store="me
 topic = app.topic('sk-individual-topic', value_type=StreamIndividual)
 
 @app.agent(topic)
-async def process_individual(individuals: faust.Stre
+async def process_individual(individuals: faust.Stream[StreamIndividual]) -> None:
+    async for individual in individuals:
+        evaluate_result = evaluate(individ
