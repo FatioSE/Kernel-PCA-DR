@@ -12,4 +12,5 @@ async def process_individual(individuals: faust.Stream[StreamIndividual]) -> Non
         evaluate_result = evaluate(individual)
         print(f'Accuracy: {evaluate_result.accuracy_test} F1 {evaluate_result.f1_test}')
 
-if _
+if __name__ == '__main__':
+    app.main()
