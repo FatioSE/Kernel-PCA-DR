@@ -1,2 +1,6 @@
 import pytest
-from models.algorithm import Alg
+from models.algorithm import Algorithm
+from models.stream_individual import StreamIndividual
+from models.evaluation_result import EvaluationResult
+
+def tes
