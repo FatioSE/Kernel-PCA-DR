@@ -5,4 +5,5 @@ from models.evaluation_result import EvaluationResult
 
 def test_algorithm_model():
     algorithm = Algorithm(
-        "from sklearn.tree import DecisionTreeClassifier"
+        "from sklearn.tree import DecisionTreeClassifier", "DecisionTreeClassifier", [])
+    assert algorithm.import_str == "from sklearn.tree
