@@ -13,4 +13,5 @@ def test_algorithm_model():
 
 def test_algorithm_from_stream_algorithm():
     stream_algorithm = StreamIndividual(id="1",
-                                        import_str="from sklear
+                                        import_str="from sklearn.tree import DecisionTreeClassifier",
+                                        alg_str="DecisionT
