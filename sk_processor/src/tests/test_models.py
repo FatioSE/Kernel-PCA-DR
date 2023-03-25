@@ -16,4 +16,6 @@ def test_algorithm_from_stream_algorithm():
                                         import_str="from sklearn.tree import DecisionTreeClassifier",
                                         alg_str="DecisionTreeClassifier", 
                                         db_training_path="training.csv", 
-                        
+                                        db_test_path="test.csv")
+    algorithm = stream_algorithm.to_algorithm_model()
+    assert algorithm.i
