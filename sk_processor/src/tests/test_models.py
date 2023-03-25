@@ -18,4 +18,5 @@ def test_algorithm_from_stream_algorithm():
                                         db_training_path="training.csv", 
                                         db_test_path="test.csv")
     algorithm = stream_algorithm.to_algorithm_model()
-    assert algorithm.i
+    assert algorithm.import_str == "from sklearn.tree import DecisionTreeClassifier", "test failed"
+    assert algorithm.alg_str =
