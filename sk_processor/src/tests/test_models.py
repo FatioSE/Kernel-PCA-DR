@@ -27,4 +27,7 @@ def test_evaluation_result():
     evaluation = EvaluationResult(individual_id="1",accuracy_test=4.56,f1_test=5.44)
     assert evaluation.individual_id == "1" , "test failed"
     assert evaluation.accuracy_test == 4.56 , "test failed"
- 
+    assert evaluation.f1_test == 5.44, "test failed"
+
+def test_evaluation_result_default():
+    evaluation = E
