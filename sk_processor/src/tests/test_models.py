@@ -30,4 +30,6 @@ def test_evaluation_result():
     assert evaluation.f1_test == 5.44, "test failed"
 
 def test_evaluation_result_default():
-    evaluation = E
+    evaluation = EvaluationResult(individual_id="1")
+    assert evaluation.individual_id == "1" , "test failed"
+    ass
