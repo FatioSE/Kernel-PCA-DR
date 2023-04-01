@@ -23,4 +23,5 @@ def test_algorithm_from_stream_algorithm():
     assert stream_algorithm.db_training_path == "training.csv", "test failed"
     assert stream_algorithm.db_test_path == "test.csv", "test failed"
 
-def test_
+def test_evaluation_result():
+    evaluation = EvaluationResult(individual_id="1",accuracy_test=4.56,f1_test=5.4
