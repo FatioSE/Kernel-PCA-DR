@@ -32,4 +32,5 @@ def test_evaluation_result():
 def test_evaluation_result_default():
     evaluation = EvaluationResult(individual_id="1")
     assert evaluation.individual_id == "1" , "test failed"
-    ass
+    assert evaluation.accuracy_test == -1.0 , "test failed"
+    assert evaluation.f1_test == -1.0, "test failed"
